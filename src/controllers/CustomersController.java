@@ -92,6 +92,7 @@ public class CustomersController implements ActionListener, MouseListener, KeyLi
                     // listar todos clientes
                     listAllCustomers();
                     JOptionPane.showMessageDialog(null, "Cliente registrado con éxito");
+                    JOptionPane.showMessageDialog(null, "Customer added successfully");
                 } else {
                     JOptionPane.showMessageDialog(null, "Ha ocurrido un error al registrar al cliente");
                 }  // agora tem que chamar este controller desde a vista SystemView
